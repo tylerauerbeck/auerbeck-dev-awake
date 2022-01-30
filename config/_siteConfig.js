@@ -20,26 +20,30 @@ export default {
   mainMenu: [
     {
       name: 'Archives',
-      link: '/categories/about-awake'
+      link: '/categories/about-awake',
+      image: '/img/resume-3.svg'
     },
     {
       name: 'Resume',
-      link: '/about'
+      link: '/about',
+      image: '/img/resume-4.svg'
     },
     {
       name: 'Twitter',
       link: 'https://twitter.com/tylerauerbeck',
+      image: '/img/twitter.svg',
       target: '_blank'
     },
     {
       name: 'Github Repo',
       link: 'https://github.com/danielkellyio/awake-template',
       target: '_blank',
-      image: '/img/github-icon.svg'
+      image: '/img/github.svg'
     },
     {
       name: 'LinkedIn',
       link: 'https://linkedin.com/tylerauerbeck',
+      image: '/img/linkedin.svg',
       target: '_blank'
     }
   ],

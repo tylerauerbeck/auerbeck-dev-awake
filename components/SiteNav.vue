@@ -36,7 +36,6 @@
             :to="item.link"
             :target="item.target ? item.target : '_self'"
           >
-            {{ item.name }}
             <img 
               :src="item.image"
               :alt="item.name"
