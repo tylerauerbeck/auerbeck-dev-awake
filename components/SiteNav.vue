@@ -37,6 +37,7 @@
             :target="item.target ? item.target : '_self'"
           >
             {{ item.name }}
+            abcdef
           </component>
         </li>
         <li class="navbar-item site-search-wrapper">
