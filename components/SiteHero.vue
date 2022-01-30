@@ -40,7 +40,7 @@ export default {
       //if (this.image.indexOf('/uploads') === 0) {
       //  return require(`~/assets${this.image}`)
       //}
-      //return { src: this.image, srcSet: '' }
+      return { src: '', srcSet: '' }
     },
     computedTheme() {
       if (this.theme === '' && this.$siteConfig.hero.theme) {
