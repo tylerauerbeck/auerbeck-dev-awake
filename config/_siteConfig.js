@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
+      link: 'https://github.com/tylerauerbeck',
       target: '_blank',
       image: '/img/github.svg'
     },
