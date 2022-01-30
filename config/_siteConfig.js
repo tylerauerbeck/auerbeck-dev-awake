@@ -26,7 +26,7 @@ export default {
     {
       name: 'Resume',
       link: '/about',
-      image: '/img/resume-4.svg'
+      image: '/img/resume-3.svg'
     },
     {
       name: 'Twitter',
