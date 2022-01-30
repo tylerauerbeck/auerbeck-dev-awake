@@ -37,10 +37,10 @@ export default {
   },
   computed: {
     responsiveImage() {
-      if (this.image.indexOf('/uploads') === 0) {
-        return require(`~/assets${this.image}`)
-      }
-      return { src: this.image, srcSet: '' }
+      //if (this.image.indexOf('/uploads') === 0) {
+      //  return require(`~/assets${this.image}`)
+      //}
+      //return { src: this.image, srcSet: '' }
     },
     computedTheme() {
       if (this.theme === '' && this.$siteConfig.hero.theme) {
