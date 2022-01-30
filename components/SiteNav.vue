@@ -37,7 +37,10 @@
             :target="item.target ? item.target : '_self'"
           >
             {{ item.name }}
-            abcdef
+            <img 
+              :src="assets/item.image.svg"
+              :alt="item.name"
+            />
           </component>
         </li>
         <li class="navbar-item site-search-wrapper">
