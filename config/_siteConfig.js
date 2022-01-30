@@ -21,12 +21,17 @@ export default {
     {
       name: 'Archives',
       link: '/categories/about-awake',
-      image: '/img/astro-2.svg'
+      image: '/img/archive.svg'
     },
     {
       name: 'Resume',
       link: '/about',
       image: '/img/user.svg'
+    },
+    {
+      name: 'Resume',
+      link: '/about',
+      image: '/img/astronaut.svg'
     },
     {
       name: 'Twitter',
