@@ -35,7 +35,7 @@ export default {
       name: 'Github Repo',
       link: 'https://github.com/danielkellyio/awake-template',
       target: '_blank',
-      image: '/assets/uploads/github-icon.svg'
+      image: '/assets/uploads/mailchimp.jpg'
     },
     {
       name: 'LinkedIn',
