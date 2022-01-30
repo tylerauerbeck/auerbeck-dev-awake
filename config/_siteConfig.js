@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Auerbeck.dev',
+  siteName: 'auerbeck.dev',
   tagline: 'Less Musings, More Meanderings',
   featureImage: '',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
@@ -19,16 +19,17 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
+      name: 'Archives',
+      link: '/categories/about-awake'
+    },
+    {
+      name: 'Resume',
       link: '/about'
     },
     {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
-      name: 'Categories',
-      link: '/categories'
+      name: 'Twitter',
+      link: 'https://twitter.com/tylerauerbeck',
+      target: '_blank'
     },
     {
       name: 'Github Repo',
@@ -36,8 +37,8 @@ export default {
       target: '_blank'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
+      name: 'LinkedIn',
+      link: 'https://linkedin.com/tylerauerbeck',
       target: '_blank'
     }
   ],
