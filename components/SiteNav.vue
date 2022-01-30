@@ -38,7 +38,7 @@
           >
             {{ item.name }}
             <img 
-              :src="assets/item.image.svg"
+              :src="item.image"
               :alt="item.name"
             />
           </component>
