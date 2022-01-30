@@ -21,7 +21,7 @@ export default {
     {
       name: 'Archives',
       link: '/categories/about-awake',
-      image: '/img/resume-3.svg'
+      image: '/img/astro-2.svg'
     },
     {
       name: 'Resume',
