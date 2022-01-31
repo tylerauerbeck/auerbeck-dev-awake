@@ -148,6 +148,11 @@ export default {
     font-weight: 600;
   }
 }
+.here-theme-dark {
+  .subtitle {
+    font-size: 2.8rem;
+  }
+}
 .hero-theme-light.hero {
   &:after {
     background: rgba(255, 255, 255, 0.6);
