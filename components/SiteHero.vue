@@ -139,10 +139,11 @@ export default {
 }
 .hero-theme-dark {
   .title,
-  .subtitle,
+  //.subtitle,
   .under-subtitle,
   .under-subtitle strong {
-    color: white;
+    color: black;
+    font-size: 10rem
   }
 }
 .hero-theme-light.hero {
