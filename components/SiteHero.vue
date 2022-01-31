@@ -1,11 +1,12 @@
 <template>
   <section :class="`hero is-medium hero-theme-${computedTheme}`">
+    <!-- Comment
     <img
       class="hero-bg-img"
       :src="responsiveImage.src"
       :lazy="false"
       :srcset="responsiveImage.srcSet"
-    />
+    /> -->
     <div class="hero-body">
       <div class="container">
         <h1 class="title animated fadeInUp">
