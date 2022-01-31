@@ -134,6 +134,7 @@ export default {
   .hero-body {
     position: relative;
     z-index: 2;
+    background-color: white
   }
 }
 .hero-theme-dark {
