@@ -3,21 +3,21 @@
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
       <button
         v-if="$siteConfig.newsletter.on"
-        class="button is-primary"
+        class="nav-button"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
         Most Popular
       </button>
       <button
         v-if="$siteConfig.newsletter.on"
-        class="button is-primary"
+        class="nav-button"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
         Most Recent
       </button>
       <button
         v-if="$siteConfig.newsletter.on"
-        class="button is-primary"
+        class="nav-button"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
         Archives
