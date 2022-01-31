@@ -148,7 +148,7 @@ export default {
     font-weight: 600;
   }
 }
-.here-theme-dark {
+.hero-theme-dark {
   .subtitle {
     font-size: 2.8rem;
   }
