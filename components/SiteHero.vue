@@ -143,7 +143,9 @@ export default {
   .under-subtitle,
   .under-subtitle strong {
     color: black;
-    font-size: 10rem
+    font-size: 10rem;
+    letter-spacing: -7px;
+    font-weight: 600;
   }
 }
 .hero-theme-light.hero {
