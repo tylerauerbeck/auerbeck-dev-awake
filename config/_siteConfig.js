@@ -29,11 +29,6 @@ export default {
       image: '/img/user.svg'
     },
     {
-      name: 'Resume',
-      link: '/about',
-      image: '/img/astronaut.svg'
-    },
-    {
       name: 'Twitter',
       link: 'https://twitter.com/tylerauerbeck',
       image: '/img/twitter.svg',
