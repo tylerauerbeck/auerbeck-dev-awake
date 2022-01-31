@@ -6,7 +6,21 @@
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
-        Subscribe To Newsletter
+        Most Popular
+      </button>
+      <button
+        v-if="$siteConfig.newsletter.on"
+        class="button is-primary"
+        @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
+      >
+        Most Recent
+      </button>
+      <button
+        v-if="$siteConfig.newsletter.on"
+        class="button is-primary"
+        @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
+      >
+        Archives
       </button>
     </site-hero>
     <main-section theme="one-column">
