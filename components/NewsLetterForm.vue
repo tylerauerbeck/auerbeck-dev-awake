@@ -21,9 +21,22 @@
           </span>
         </p>
         <div class="control">
-          <button type="submit" class="button is-primary">
+ <!--         <button type="submit" class="button is-primary">
             {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
           </button>
+-->
+            <img 
+              src="/img/github.svg"
+            />
+            <img 
+              src="/img/github.svg"
+            />
+            <img 
+              src="/img/github.svg"
+            />
+            <img 
+              src="/img/github.svg"
+            />
         </div>
       </div>
     </form>
