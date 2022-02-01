@@ -21,20 +21,24 @@
           </span>
         </p>
         <div class="control">
- <!--         <button type="submit" class="button is-primary">
+          <button type="submit" class="button is-primary">
             {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
           </button>
 -->
             <img 
+              class="icon"
               src="/img/github.svg"
             />
             <img 
+              class="icon"
               src="/img/github.svg"
             />
             <img 
+              class="icon"
               src="/img/github.svg"
             />
             <img 
+              class="icon"
               src="/img/github.svg"
             />
         </div>
@@ -63,7 +67,7 @@ export default {
 </script>
 
 <style>
-.img {
+.img.icon {
   max-height: 2rem
 }
 </style>
