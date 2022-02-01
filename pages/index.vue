@@ -3,21 +3,21 @@
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
       <button
         v-if="$siteConfig.newsletter.on"
-        class="button is-primary"
+        class="button is-primary nav"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
         Most Popular
       </button>
       <button
         v-if="$siteConfig.newsletter.on"
-        class="button is-primary"
+        class="button is-primary nav"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
         Most Recent
       </button>
       <button
         v-if="$siteConfig.newsletter.on"
-        class="button is-primary"
+        class="button is-primary nav"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
         Archives
@@ -63,5 +63,9 @@ export default {
 <style>
 .home-page .under-subtitle {
   border-top: none;
+}
+
+.button.nav {
+  margin: 1.0625rem 2.25rem;
 }
 </style>
