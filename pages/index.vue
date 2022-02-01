@@ -66,6 +66,7 @@ export default {
 }
 
 .button.nav {
-  margin: 1.0625rem 2.25rem;
+  padding: 1.0625rem 2.25rem;
+  margin: 0 .875rem 0 0;
 }
 </style>
