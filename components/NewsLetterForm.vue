@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form
+<!--    <form
       target="_blank"
       method="post"
       :action="formAction"
@@ -38,9 +38,10 @@
               src="/img/github.svg"
             />
         </div>
-      </div>
+<!--      </div>
     </form>
-  </div>
+    
+  </div> -->
 </template>
 
 <script>
@@ -60,3 +61,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.img {
+  max-height: 2rem
+}
+</style>
