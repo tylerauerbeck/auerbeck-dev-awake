@@ -65,7 +65,7 @@ export default {
 
 .title {
   font-weight: 300;
-  border-bottom: 2px solid $primary;
+//  border-bottom: 2px solid $primary;
   @media (min-width: 768px) {
     font-size: 3.2rem;
   }
