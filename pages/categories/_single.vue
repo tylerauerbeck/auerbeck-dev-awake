@@ -44,8 +44,7 @@ export default {
   },
   async created() {
     this.allCats = await this.$cms.category.getAll()
-    index = this.allCats.indexOf("Articles")
-    this.$delete(this.allCats, index)
+    this.$delete(this.allCats, this.allCats.indexOf("Articles"))
   }
 }
 </script>
