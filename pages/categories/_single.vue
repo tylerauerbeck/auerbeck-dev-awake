@@ -49,7 +49,8 @@ export default {
     setPageData(store, { resource: 'category', slug: params.single })
   },
   async created() {
-    this.allCats = await this.$cms.category.getAll()  
+    this.allCats = await this.$cms.category.getAll() 
+    deleteArticleCat()
   }
 }
 </script>
