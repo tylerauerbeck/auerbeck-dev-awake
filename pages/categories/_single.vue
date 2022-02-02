@@ -36,19 +36,20 @@ import { setPageData } from '../../helper'
 export default {
   data() {
     return {
-      allCats: [],
-      index: 0
+      allCats: []
+    }
+  },
+  methods: {
+    deleteArticleCat(){
+      index = this.allCats.indexOf("Articles")
+      this.allCats.$delete(this.allCats,index)
     }
   },
   fetch({ store, params }) {
     setPageData(store, { resource: 'category', slug: params.single })
   },
   async created() {
-    this.allCats = await this.$cms.category.getAll()
-    this.index = this.allCats.indexOf("Articles")
-    this.$delete(this.allCats, this.index)
-    
-    
+    this.allCats = await this.$cms.category.getAll()  
   }
 }
 </script>
