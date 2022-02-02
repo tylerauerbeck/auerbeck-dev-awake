@@ -1,5 +1,7 @@
 <template>
-  <section :class="front `hero is-medium hero-theme-${computedTheme}`">
+  <section 
+    class="front hero is-medium hero-theme-dark"
+  >
     <!-- Comment
     <img
       class="hero-bg-img"
