@@ -21,7 +21,8 @@
             :to="`/categories/${cat.slug}`"
             :class="{
               'panel-block': true,
-              'is-active': cat.slug === $route.params.single
+              'is-active': cat.slug === $route.params.single,
+              'is-hidden': cat.slug == 'articles',
             }"
           >
             {{ cat.name }}
@@ -39,18 +40,17 @@ export default {
       allCats: []
     }
   },
-  methods: {
-    deleteArticleCat(){
-      index = this.allCats.indexOf("Articles")
-      this.allCats.$delete(this.allCats,index)
-    }
-  },
   fetch({ store, params }) {
     setPageData(store, { resource: 'category', slug: params.single })
   },
   async created() {
     this.allCats = await this.$cms.category.getAll() 
-    deleteArticleCat()
   }
 }
 </script>
+
+<style>
+.is-hidden {
+  visibility: hidden;
+}
+</style>
