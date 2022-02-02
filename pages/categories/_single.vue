@@ -44,6 +44,7 @@ export default {
   },
   async created() {
     this.allCats = await this.$cms.category.getAll()
+    this.$delete(this.allCats, 0)
   }
 }
 </script>
