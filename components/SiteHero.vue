@@ -1,5 +1,5 @@
 <template>
-  <section :class="`hero is-medium hero-theme-${computedTheme}`">
+  <section :class="front `hero is-medium hero-theme-${computedTheme}`">
     <!-- Comment
     <img
       class="hero-bg-img"
@@ -164,5 +164,8 @@ export default {
   .under-subtitle strong {
     text-shadow: 1px 1px 2px white;
   }
+}
+.front {
+  height: 100vh;
 }
 </style>
