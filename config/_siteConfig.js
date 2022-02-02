@@ -20,7 +20,7 @@ export default {
   mainMenu: [
     {
       name: 'Archives',
-      link: '/categories/about-awake',
+      link: '/categories/articles',
       image: '/img/archive.svg'
     },
     {
