@@ -167,7 +167,7 @@ export default {
     text-shadow: 1px 1px 2px white;
   }
 }
-.front {
-  height: 100vh;
-}
+//.front {
+//  height: 100vh;
+//}
 </style>
