@@ -33,7 +33,7 @@
         <h3 class="subtitle is-4">
           Latest Posts
         </h3>
-        <posts-grid :per-row="3" :number="2" />
+        <posts-grid :per-row="3" :number="6" />
       </template>
 
 
