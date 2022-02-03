@@ -24,10 +24,20 @@
       </button>
     </site-hero>
     <main-section theme="one-column">
-      <template v-slot:default>
+      <!--<template v-slot:default> -->
         <!-- All Posts -->
-        <posts-grid />
+      <!--  <posts-grid /> -->
+      <!--</template> -->
+
+      <template v-slot:default>
+        <h3 class="subtitle is-4">
+          Latest Posts
+        </h3>
+        <posts-grid :per-row="3" :number="2" />
       </template>
+
+
+
       <template v-slot:sidebar>
         Nothing here
       </template>
